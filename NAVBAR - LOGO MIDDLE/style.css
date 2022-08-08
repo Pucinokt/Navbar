@@ -29,6 +29,8 @@ html {
     line-height: 65px;
     text-align: right;
     z-index: 9999;
+    display: flex;
+    justify-content: center;
 }
 
 .nav div.logo {
