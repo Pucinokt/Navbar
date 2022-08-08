@@ -32,10 +32,12 @@ html {
 }
 
 .nav div.logo {
-    float: left;
+    float: right;
     width: auto;
     height: auto;
     padding-left: 3rem;
+    margin-right: 30px;
+
 }
 
 .nav div.logo a {
@@ -50,7 +52,8 @@ html {
 
 .nav div.main_list {
     height: 65px;
-    float: right;
+    float: left;
+    margin-left: 30px;
 }
 
 .nav div.main_list ul {
@@ -65,7 +68,6 @@ html {
 .nav div.main_list ul li {
     width: auto;
     height: 65px;
-    padding: 0;
     padding-right: 3rem;
 }
 
@@ -109,6 +111,7 @@ html {
         height: 0;
         margin-top: -10px;
         overflow: hidden;
+        margin-left: 0;
     }
     .nav div.show_list {
         height: auto;
@@ -147,7 +150,7 @@ html {
     height: 25px;
     margin: auto;
     position: absolute;
-    right: 30px;
+    left: 30px;
     top: 0;
     bottom: 0;
 }
