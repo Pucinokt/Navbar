@@ -39,6 +39,7 @@ html {
     padding-left: 3rem;
 }
 
+
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
@@ -91,10 +92,19 @@ html {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+.logo1{
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
         margin: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 3024px) {
+    .logo1{
+        display: none;
     }
 }
 
@@ -135,6 +145,7 @@ html {
         width: 100%;
         font-size: 3rem;
         padding: 20px;
+        margin-top: 50px;
     }
     .nav div.media_button {
         display: block;
